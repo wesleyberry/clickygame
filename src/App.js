@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+import Card from "./components/Cards";
+import friends from "./friends.json";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+    return (
+      <Wrapper>
+        <Title>Clicky Game</Title>
+        <Card
+          image={friends[0].image}
+        />
+        <Card
+          image={friends[1].image}
+        />
+        <Card
+          image={friends[2].image}
+        />
+        <Card
+          image={friends[3].image}
+        />
+        <Card
+          image={friends[4].image}
+        />
+        <Card
+          image={friends[5].image}
+        />
+        <Card
+          image={friends[6].image}
+        />
+        <Card
+          image={friends[7].image}
+        />
+      </Wrapper>
+    );
+  }
+  
+  export default App;
+  
