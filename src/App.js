@@ -1,39 +1,35 @@
 import React from "react";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
+import Container from "./components/Container";
+import Score from "./components/Score";
 import Card from "./components/Cards";
 import friends from "./friends.json";
 
-function App() {
+class App extends React.Component {
+
+  state = {
+    friends
+  };
+
+  render() {
     return (
       <Wrapper>
         <Title>Clicky Game</Title>
-        <Card
-          image={friends[0].image}
-        />
-        <Card
-          image={friends[1].image}
-        />
-        <Card
-          image={friends[2].image}
-        />
-        <Card
-          image={friends[3].image}
-        />
-        <Card
-          image={friends[4].image}
-        />
-        <Card
-          image={friends[5].image}
-        />
-        <Card
-          image={friends[6].image}
-        />
-        <Card
-          image={friends[7].image}
-        />
+        <Score></Score>
+        <Container>
+          {this.state.friends.map(friend => {
+            return(
+              <Card 
+                key={friend.id}
+                image={friend.image}
+              />
+            );
+          })}
+        </Container>
       </Wrapper>
     );
+  }
   }
   
   export default App;

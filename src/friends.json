@@ -1,26 +1,34 @@
 [
     {
-        "image": "./assets/images/archer.jpg"
+        "id": 1,
+        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-archer-h-jon-benjamin.jpg"
     },
     {
-        "image": "./assets/images/cheryl.jpg"
+        "id": 2,
+        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-archer-judy-greer.jpg"
     },
     {
-        "image": "./assets/images/cyrill.jpg"
+        "id": 3,
+        "image": "https://yt3.ggpht.com/a-/AAuE7mD8uYeYyWzUgU1lPKPqfqh-KhR4mF4N0VjpHg=s900-mo-c-c0xffffffff-rj-k-no"
     },
     {
-        "image": "./assets/images/gillette.jpg"
+        "id": 4,
+        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-archer-adam-reed.jpg"
     },
     {
-        "image": "./assets/images/krieger.jpg"
+        "id": 5,
+        "image": "https://vignette.wikia.nocookie.net/archer/images/7/72/Krieger_Kleanse.JPG/revision/latest?cb=20120128032746"
     },
     {
-        "image": "./assets/images/lana.jpg"
+        "id": 6,
+        "image": "https://vignette.wikia.nocookie.net/archer/images/e/e8/Lana_Kane.png/revision/latest?cb=20151013033343"
     },
     {
-        "image": "./assets/images/malory.jpg"
+        "id": 7,
+        "image": "https://vignette.wikia.nocookie.net/archer/images/5/5b/Malory_quizical_look.jpg/revision/latest?cb=20180503210721"
     },
     {
-        "image": "./assets/images/pam.jpg"
+        "id": 8,
+        "image": "https://costumewall.com/wp-content/uploads/2017/10/pam-poovey.jpg"
     }
 ]
